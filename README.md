@@ -1,3 +1,5 @@
+
+
 editable-table
 =================
 
@@ -15,12 +17,15 @@ CSS)
 * Works well with Bootstrap
 * Depends only on jQuery
 
-Basic Usage
+Extended Features
 -----------
 
-Added features:
 * Added the possibility to prevent edit of certain columns. For example if second and third column chould not be editable you simply initializes the table as: $('#table').editableTableWidget({ editor: $('<input>'), preventColumns: [ 2, 3 ] });
-* 
+
+Thanks Gojko Adzic for a nice and light weighted library!
+
+Basic Usage
+-----------
 
 See http://mindmup.github.com/editable-table/
 
