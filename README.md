@@ -18,6 +18,10 @@ CSS)
 Basic Usage
 -----------
 
+Added features:
+* Added the possibility to prevent edit of certain columns. For example if second and third column chould not be editable you simply initializes the table as: $('#table').editableTableWidget({ editor: $('<input>'), preventColumns: [ 2, 3 ] });
+* 
+
 See http://mindmup.github.com/editable-table/
 
 Dependencies
