@@ -21,6 +21,7 @@ Extended Features
 -----------
 
 * Added the possibility to prevent edit of certain columns. For example if second and third column not should be editable, you simply initializes the table as:
+
   $('#table').editableTableWidget({ editor: $('<input>'), preventColumns: [ 2, 3 ] });
 
 Thanks Gojko Adzic for a nice and light weighted library!
