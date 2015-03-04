@@ -20,7 +20,7 @@ CSS)
 Extended Features
 -----------
 
-* Added the possibility to prevent edit of certain columns. For example if second and third column not should be editable, you simply initializes the table as:
+1. Added the possibility to prevent edit of certain columns. For example if second and third column not should be editable, you simply initializes the table as:
 ```example
   $('#table').editableTableWidget({ editor: $('<input>'), preventColumns: [ 2, 3 ] });
 ```
