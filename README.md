@@ -17,6 +17,11 @@ CSS)
 * Works well with Bootstrap
 * Depends only on jQuery
 
+Basic Usage
+-----------
+
+See http://mindmup.github.com/editable-table/
+
 Extended Features
 -----------
 
@@ -24,12 +29,8 @@ Extended Features
 ```example
   $('#table').editableTableWidget({ editor: $('<input>'), preventColumns: [ 2, 3 ] });
 ```
+
 Thanks Gojko Adzic for a nice and light weighted library!
-
-Basic Usage
------------
-
-See http://mindmup.github.com/editable-table/
 
 Dependencies
 ------------
